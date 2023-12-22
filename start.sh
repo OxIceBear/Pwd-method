@@ -1,4 +1,4 @@
-apt update  && apt upgrade
+apt update && apt upgrade
 apt install sudo 
 apt install curl 
 apt install wget 
