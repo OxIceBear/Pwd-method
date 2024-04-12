@@ -5,7 +5,7 @@ services:
     image: codercom/code-server:4.16.1-ubuntu
     container_name: code-server
     environment:
-      - DOCKER_USER=$USER
+      - DOCKER_USER=Root
       - PASSWORD=mypassword! #Replace this with your login password
     volumes:
       - ./config:/config
